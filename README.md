@@ -31,7 +31,12 @@ The script removes duplicate prime sums by converting the list to a set **(setpr
 To run this script, simply execute it in a Python environment. The script will output:
 
 1.The number of prime numbers found between 1 and 100.
+
 2.The list of prime numbers.
+
 3.The sums of the digits of these prime numbers.
+
 4.The prime numbers whose digit sums are also prime.
+
 5.The set of prime numbers with digit sums that are prime, with duplicates removed.
+

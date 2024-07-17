@@ -6,23 +6,23 @@ It also eliminates any duplicate sums that are prime numbers.
 
 **Features**
 
-1.Finding Prime Numbers:
+- Finding Prime Numbers:
 
 The script iterates through numbers from a to b (inclusive).
 It checks if each number is prime.
 If a number is prime, it is added to a list of prime numbers **(my_list)**.
 
-2.Sum of Digits:
+- Sum of Digits:
 
 For each prime number found, the script calculates the sum of its digits.
 These sums are stored in another list **(my_result)**.
 
-3.Prime Sum Check:
+- Prime Sum Check:
 
 The script checks if the sums of digits are prime numbers.
 It stores these prime sums in a list **(prime**).
 
-4.Removing Duplicates:
+- Removing Duplicates:
 
 The script removes duplicate prime sums by converting the list to a set **(setprime)**.
 
@@ -30,13 +30,13 @@ The script removes duplicate prime sums by converting the list to a set **(setpr
 
 To run this script, simply execute it in a Python environment. The script will output:
 
--The number of prime numbers found between 1 and 100.
+1. The number of prime numbers found between 1 and 100.
 
--The list of prime numbers.
+2. The list of prime numbers.
 
--The sums of the digits of these prime numbers.
+3. The sums of the digits of these prime numbers.
 
--The prime numbers whose digit sums are also prime.
+4. The prime numbers whose digit sums are also prime.
 
--The set of prime numbers with digit sums that are prime, with duplicates removed.
+5. The set of prime numbers with digit sums that are prime, with duplicates removed.
 
